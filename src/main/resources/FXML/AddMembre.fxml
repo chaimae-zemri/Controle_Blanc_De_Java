@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="addmember_container" stylesheets="@../Style/Add.css"
+            xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.controle2java.Controller.AddMembreController">
+    <VBox alignment="TOP_CENTER" prefHeight="394.0" prefWidth="600.0" styleClass="addmember_container"
+          AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0"
+          AnchorPane.topAnchor="14.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter un nouveau membre"/>
+        <VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+              minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" styleClass="form_container">
+            <TextField fx:id="nom_fld" maxHeight="-Infinity" maxWidth="-Infinity" text="Nom"/>
+            <TextField fx:id="prenom_fld" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity"
+                       maxWidth="-Infinity" text="Prénom"/>
+            <TextField fx:id="email_fld" layoutX="10.0" layoutY="35.0" maxWidth="-Infinity" text="Email"/>
+            <TextField fx:id="phone_fld" layoutX="10.0" layoutY="60.0" maxWidth="-Infinity" text="Phone"/>
+            <Button fx:id="inserer_btn" mnemonicParsing="false" text="Inserer"/>
+        </VBox>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,28 @@
+
+.addmember_container {
+    -fx-background-color: #DDDDDD;
+    -fx-spacing: 15;
+
+}
+.addmember_container Text {
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Calibri Light";
+    -fx-font-weight: bold;
+    -fx-padding: 15;
+}
+
+
+.form_container  {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
+
+.form_container  TextField {
+    -fx-pref-width: 200;
+}
+.form_container Button {
+    -fx-pref-width: 150;
+    -fx-fill: black;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1.3em;
+}
